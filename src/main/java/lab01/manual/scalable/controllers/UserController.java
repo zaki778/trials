@@ -44,5 +44,7 @@ public class UserController {
         return userService.createUser(user);
     }
 
-    
+    public String test(){
+        return "testt!";
+    }
 }
